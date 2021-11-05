@@ -1,0 +1,46 @@
+{
+  "grouping": {
+    "groupBy": "CompanyNumbers"
+  },
+  "timeRange": {
+    "timeFrom": "2021-08-24T14:15:22Z",
+    "timeTo": "2021-10-24T14:15:22Z"
+  },
+  "additionalFilters": {
+    "direction": "Inbound",
+    "origin": "Internal",
+    "callResponse": "Answered",
+    "callResponseType": [
+      "InboundDirect"
+    ],
+    "callResult": [
+      "Completed"
+    ],
+    "callSegments": [
+      {
+        "callSegment": "Ringing"
+      }
+    ],
+    "callActions": [
+      {
+        "callAction": "HoldOff"
+      }
+    ],
+    "companyHours": "BusinessHours"
+  },
+  "responseOptions": {
+    "counters": {
+      "allCalls": {
+        "aggregationType": "Sum"
+      },
+      "callsByDirection": {
+        "aggregationType": "Sum"
+      }
+    },
+    "timers": {
+      "allCallsDuration": {
+        "aggregationType": "Sum"
+      }
+    }
+  }
+}
