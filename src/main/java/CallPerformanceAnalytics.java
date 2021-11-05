@@ -18,7 +18,7 @@ public class CallPerformanceAnalytics {
   private static String RINGCENTRAL_PASSWORD = "";
   private static String RINGCENTRAL_EXTENSION = "";
 
-  private static String RC_ACCESS_TOKEN = "Bearer U0pDMDFQMDdQQVMwMHxBQUNtS3lyZzFoV0RHTktQemxNT3pZbTRxSjdLSFV3aGc2UE8tQ2VvTWJvT3p3eUVzbU8xOXA2TkV6ZXBMU081SVpzcUxXOENqdjQweGxfWXNseWRwNVZacy1qUjhadk12dmJKeS1UQ05uLUdWc3VIQzNsQzRZUzl6NmZUZnN3SEY3Vkx1MUlVYXlUMDQxV0RPblNnUUp1dVl4dGFXVnRQX240ejRneTFJUF9NbUQ2Q2FhbXY1cmRTUFZXdi1rc1ZkWWcwMzMwc3xENC1obmd8dTNPbjFDcnZGR2VxUy01TjZqMS1JQXxBUQ";
+  private static String RC_ACCESS_TOKEN = ""; // this should be something like "Bearer xxxxx"
 
   private static final String AGGREGATE_API_PATH = "/analytics/phone/performance/v1/accounts/~/calls/aggregate";
   private static final String TIMELINE_API_PATH = "/analytics/phone/performance/v1/accounts/~/calls/timeline?interval=Week";
