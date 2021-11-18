@@ -21,12 +21,13 @@ More information about that can be found in the [developer guide.](https://devel
 1. Clone/Download this GitHub Repository
 2. Open the project in any IDE such as Visual Studio Code or IDEA
 3. Make sure your the local.properties file has all the values for the various fields and also make sure not to expose your Application Credentials publicly. You can even add .env file to your .gitignore file.
-4. Run the following commands
+4. Run the following commands to build and run the project
 
 ```bash
+./gradlew build
 ./gradlew run
 ```
-5. Open Console to see the JSON Response shown for both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
+5. Open Console/Terminal to see the JSON Response shown for both 'Aggregrate' and 'Timeline' data as returned by the two Call Performance APIs.
 
 ## Steps to run Tests
 
